@@ -1,4 +1,4 @@
-import MapView from "./MapView.jsx";
+import MapView from "./MapView.jsx"
 import React, { useState } from 'react'
 
 export default function App(){
