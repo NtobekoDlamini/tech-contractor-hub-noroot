@@ -43,8 +43,8 @@ Post a problem and find nearby professionals ready to help.
 {role==="client" && !jobPosted && (
 <div className="hero">
 <h2>Request IT Support</h2>
-<input <MapView />="Describe your issue"/><br/>
-<input <MapView />="City (Johannesburg, Cape Town)"/><br/>
+<input MapView ="Describe your issue"/><br/>
+<input MapView ="City (Johannesburg, Cape Town)"/><br/>
 <button className="teal" onClick={()=>setJobPosted(true)}>Find Technician</button>
 </div>
 )}
