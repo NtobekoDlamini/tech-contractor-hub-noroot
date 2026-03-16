@@ -1,4 +1,4 @@
-
+import MapView from "./MapView.jsx";
 import React, { useState } from 'react'
 
 export default function App(){
@@ -43,8 +43,8 @@ Post a problem and find nearby professionals ready to help.
 {role==="client" && !jobPosted && (
 <div className="hero">
 <h2>Request IT Support</h2>
-<input placeholder="Describe your issue"/><br/>
-<input placeholder="City (Johannesburg, Cape Town)"/><br/>
+<input <MapView />="Describe your issue"/><br/>
+<input <MapView />="City (Johannesburg, Cape Town)"/><br/>
 <button className="teal" onClick={()=>setJobPosted(true)}>Find Technician</button>
 </div>
 )}
